@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajib Uddin's Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script
+    src="https://kit.fontawesome.com/0d2eae200b.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="./img/sajiblogo.png" alt="" width="100px" height="100px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX designer</p>
+                <h1>Hi, I'm <b><span>Md. Sajib Uddin</span> </b>from Bangladesh</h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/standsajib.png" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quam ratione, odio totam impedit aperiam. Maiores excepturi optio quo porro harum aspernatur cupiditate debitis laudantium, earum quidem dolore incidunt nihil consectetur eius sunt sint dolor nam. Non, dicta! Sint ratione nostrum ab dolore eaque maxime, minima illo voluptatem consequuntur ex animi repudiandae ipsam eos, ut provident cum sunt voluptatibus quos earum a modi dolorem magnam soluta sit? Esse, perferendis?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>No Experience</span><br></li>
+                            <!-- <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andriod/iOS apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing web/App interfaces</li> -->
+                            <li><span>2021 to current</span><br>Bsc. in Software Engineering</li>
+                            <li><span>2020</span><br>HSC fom Hazera Taju Degree Collage , Chattogram</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum!</p>
+                    <a href="#">learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum!</p>
+                    <a href="#">learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Desgin</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum!</p>
+                    <a href="#">learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/product1.png" alt="" height="235px">
+                    <div class="layer">
+                        <h2>Responsive E-Commerce web</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, consequuntur.</p>
+                        <a href="https://github.com/sajibuddin729/E-commerce-website-front-end-"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="./img/project2.png" alt="">
+                    <div class="layer">
+                        <h2>School Management System</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, consequuntur.</p>
+                    <a href="https://github.com/sajibuddin729/School-Management-System-"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/project3.png" alt="">
+                   <div class="layer">
+                    <h2>Resturante System</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus</p>
+                    <a href="https://github.com/sajibuddin729/ResturanteSystem"><i class="fas fa-external-link-alt"></i></a>
+                   </div>
+                </div>
+            </div>
+            <a href="https://github.com/sajibuddin729?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>sajibuddin729@gmil.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>01521771457</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/hossain.chy.90"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/sajibCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message"row="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sajib Uddin . Made for own use</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="project.js"></script>
+</body>
+</html>
